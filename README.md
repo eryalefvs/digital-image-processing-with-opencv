@@ -23,6 +23,7 @@ Imagem base utilizada:
 
 Código:
 ´´´python
+
 import cv2
 import numpy as np
 
@@ -56,6 +57,7 @@ cv2.destroyAllWindows()
 
 cv2.imwrite("Original_com_Contornos.jpg", imagem)
 cv2.imwrite("Máscara.jpg", mask)
+
 ´´´
 
 <img src="/Aula-02/Máscara.jpg">
