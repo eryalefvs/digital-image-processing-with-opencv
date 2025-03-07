@@ -110,7 +110,7 @@ cv2.imwrite("iris_rgb.jpg", output_rgb)
 ```
 Resultado:
 
-<img src="/Aula-03/task3/eyes_iris.jpg">
+<img src="/Aula-03/task3/iris_rgb.jpg">
 
 ### Aula 04 - Filtragem e Realce de Detalhes
 
