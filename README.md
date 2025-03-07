@@ -16,8 +16,9 @@ Técnicas utilizadas:
 
 - Uso de contornos para identificar objetos e desenhar sua borda.
 
-![Imagem base utilizada](/Aula-02/red_ball.jpg)
+Exemplo:
 
+![Imagem base utilizada](/Aula-02/red_ball.jpg)
 
 Código:
 ```python
