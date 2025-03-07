@@ -8,8 +8,8 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 blurred = cv2.GaussianBlur(gray, (5, 5), 0)
 edges = cv2.Canny(blurred, 30, 100)
 
-circles = cv2.HoughCircles(blurred, cv2.HOUGH_GRADIENT, dp=1.2, minDist=20,
-                           param1=50, param2=30, minRadius=10, maxRadius=50)
+circles = cv2.HoughCircles(blurred, cv2.HOUGH_GRADIENT, dp=1.1, minDist=20,
+                           param1=52, param2=33, minRadius=13, maxRadius=50)
 
 output = image.copy()
 if circles is not None:
@@ -19,6 +19,8 @@ if circles is not None:
 
 output_rgb = cv2.cvtColor(output, cv2.COLOR_BGR2RGB)
 
-cv2.imshow("iris", output_rgb)
+cv2.imshow("pupil", output_rgb)
 cv2.waitKey(0)
 cv2.destroyAllWindows
+
+cv2.imwrite("pupil_rgb.jpg", output_rgb)

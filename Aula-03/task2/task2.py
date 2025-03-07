@@ -34,7 +34,10 @@ if contornos:
         cy = int(M["m01"] / M["m00"])
         cv2.circle(imagem, (cx, cy), 5, (255, 0, 0), -1)
 
-cv2.imshow("Original com Contornos", imagem)
+cv2.imshow("Original com centro detectado", imagem)
 cv2.imshow("Máscara", mask)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+cv2.imwrite("Original_com_centro_detectado.jpg", imagem)
+cv2.imwrite("Máscara.jpg", mask)

@@ -17,3 +17,5 @@ if lines is not None:
 cv2.imshow("Linhas Detectadas", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+cv2.imwrite("Linhas_Detectadas.jpg", image)

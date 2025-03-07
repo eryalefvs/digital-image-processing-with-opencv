@@ -21,3 +21,5 @@ for coordinate in zip(*img_intermediario[::-1]):
 cv2.imshow("Detected Coins", mario_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+cv2.imwrite("Detected_Coins.jpg", mario_img)
