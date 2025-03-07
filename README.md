@@ -16,6 +16,7 @@ Técnicas utilizadas:
 
 - Uso de contornos para identificar objetos e desenhar sua borda.
 
+<img src="/Aula-02/red_ball.jpg">
 ### Aula 03 - Detecção de Formas e Estruturas
 
 Esta aula expandiu o conceito de segmentação com a detecção de formas específicas, como esferas e contornos de olhos.
