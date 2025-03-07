@@ -1,4 +1,4 @@
-# Processamento Digital de Imagens - 6º Período
+# 📷 Processamento Digital de Imagens - 6º Período
 
 Este repositório contém os códigos desenvolvidos durante a disciplina de férias Processamento Digital de Imagens, cursada no 6º período de Engenharia da Computação. Cada pasta representa uma aula com experimentos práticos sobre técnicas de manipulação e análise de imagens.
 
