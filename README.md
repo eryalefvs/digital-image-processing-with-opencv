@@ -58,6 +58,7 @@ cv2.imwrite("Máscara.jpg", mask)
 ```
 
 Imagem com contornos e máscara da imagem:
+
 <img src="/Aula-02/Máscara.jpg">
 <img src="/Aula-02/Original_com_Contornos.jpg">
 
