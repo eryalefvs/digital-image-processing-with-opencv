@@ -193,6 +193,7 @@ cv2.imwrite("Detected_Coins.jpg", mario_img)
 Resultado:
 
 <img src="/Aula-04/Detected_Coins.jpg">
+
 ## Conclusão
 
 Os experimentos realizados permitem compreender técnicas fundamentais de processamento de imagens, como segmentação, detecção de bordas e filtragem. O conhecimento adquirido pode ser aplicado em sistemas de visão computacional, reconhecimento de padrões e automação de análise visual.
