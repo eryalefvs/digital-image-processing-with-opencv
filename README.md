@@ -21,7 +21,7 @@ Imagem base utilizada:
 <img src="/Aula-02/red_ball.jpg">
 
 
-
+Código:
 ´´´python
 import cv2
 import numpy as np
@@ -58,9 +58,6 @@ cv2.imwrite("Original_com_Contornos.jpg", imagem)
 cv2.imwrite("Máscara.jpg", mask)
 ´´´
 
-
-
-Imagem com contorno e imagem com máscara:
 <img src="/Aula-02/Máscara.jpg">
 <img src="/Aula-02/Original_com_Contornos.jpg">
 
